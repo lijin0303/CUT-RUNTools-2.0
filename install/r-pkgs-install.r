@@ -20,7 +20,6 @@ for(i in cran.pkgs){
         install.packages(i)
     }
 }
-install.packages("CENTIPEDE", repos="http://R-Forge.R-project.org")
 
 # individual packages
 # indi.pkgs <- c("Rtsne", "RANN")
